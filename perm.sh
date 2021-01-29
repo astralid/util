@@ -1,5 +1,5 @@
 #!/bin/sh
-OWNER=www-data
+OWNER=apache
 GROUP=www-data
 sudo find . -type d -exec chmod 575 {} \;
 sudo find . -type f -exec chmod 464 {} \;
